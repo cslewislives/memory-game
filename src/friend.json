@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "Jester",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/1/1b/Jester.jpg/revision/latest?cb=20180116194420"
+    },
+    {
+        "id": 2,
+        "name": "Nott the Brave",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/d/dc/Nott.jpg/revision/latest?cb=20180116194408"
+    },
+    {
+        "id": 3,
+        "name": "Caleb Widogast",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/9/92/Caleb_Widogast.jpg/revision/latest?cb=20180116194349"
+    },
+    {
+        "id": 4,
+        "name": "Fjord",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/2/24/Fjord.jpg/revision/latest?cb=20180116194444"
+    },
+    {
+        "id": 5,        
+        "name": "Beauregard",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/3/3e/Beauregard.jpg/revision/latest?cb=20180116194433"
+    },
+    {
+        "id": 6,
+        "name": "Mollymauk Tealeaf",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/c/ce/Mollymauk.jpg/revision/latest?cb=20180116194455"
+    },
+    {
+        "id": 7,
+        "name": "Yasha",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/9/92/Yasha.jpg/revision/latest?cb=20180116194508"
+    },
+    {
+        "id": 8,
+        "name": "Vex'ahlia",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/4/4e/Vexahlia2.jpg/revision/latest?cb=20151228164410"
+    },
+    {
+        "id": 9,
+        "name": "Vax'ildan",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/4/4e/Vaxildan2.png/revision/latest?cb=20151228163354"
+    },
+    {
+        "id": 10,
+        "name": "Keyleth",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/c/c2/Keyleth2.png/revision/latest?cb=20151228163618"
+    },
+    {
+        "id": 11,
+        "name": "Scanlan Shorthalt",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/a/a9/Scanlan2.png/revision/latest?cb=20151228164935"
+    },
+    {
+        "id": 12,
+        "name": "Grog Strongjaw",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/4/45/Grog2.png/revision/latest?cb=20151228165057"
+    },
+    {
+        "id": 13,
+        "name": "Percival Fredrickstein Von Musel Klossowski de Rolo III",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/9/91/Percy2.png/revision/latest?cb=20151228164610"
+    },
+    {
+        "id": 14,
+        "name": "Pike Trickfoot",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/1/1b/Pike2.png/revision/latest?cb=20151228165247"
+    },
+    {
+        "id": 15,
+        "name": "Tiberius Stormwind",
+        "photo": "https://vignette.wikia.nocookie.net/criticalrole/images/9/9c/Tiberius.png/revision/latest?cb=20150418162704"
+    }
+]

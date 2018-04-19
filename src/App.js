@@ -11,7 +11,31 @@ class App extends Component {
 
   state = {
     score: 0,
-    topScore: 0
+    topScore: 0,
+    picked: []
+  }
+
+  handleBtnClick = event => {
+    const charID = event.target.attributes.getNamedItem("data-value").value;
+
+    const newState = { ...this.state };
+
+    if (newState.picked.includes(charID)) {
+      newState.score = 0;
+      newState.picked = [];
+    } else if (!newState.picked.includes(charID) && newState.picked.length >= newState.topScore) {
+      newState.score = newState.score + 1
+      newState.topScore = newState.topScore + 1
+      newState.picked.push(charID);
+      console.log(newState.picked)
+    } else {
+      newState.score = newState.score + 1
+      newState.picked.push(charID);
+      console.log(newState.picked)
+    }
+
+    this.setState(newState);
+
   }
 
   render() {
@@ -22,7 +46,7 @@ class App extends Component {
             <NavbarBrand href="/">
               Memory Game!
             </NavbarBrand>
-            <h2>Score: 0 | Top Score: 0</h2>
+            <h2>Score: {this.state.score} | Top Score: {this.state.topScore}</h2>
           </Container>
         </Navbar>
         <Jumbotron>
@@ -36,6 +60,7 @@ class App extends Component {
                 key={friend.id}
                 name={friend.name}
                 image={friend.photo}
+                handleBtnClick={this.handleBtnClick}
               />
             ))}
         </Container>
